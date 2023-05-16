@@ -29,6 +29,7 @@ async function run() {
         const bookingCollection = client.db('carsDoctorDB').collection('bookings');
         const productCollection = client.db('carsDoctorDB').collection('products');
 
+        // services
         app.get('/services', async (req, res) => {
             const cursor = serviceCollection.find();
             const result = await cursor.toArray();
