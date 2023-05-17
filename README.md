@@ -11,3 +11,5 @@ Containing some live json files
 [dotenv](https://www.npmjs.com/package/dotenv)
 
 [mongodb](https://www.mongodb.com/atlas/database)
+
+[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
